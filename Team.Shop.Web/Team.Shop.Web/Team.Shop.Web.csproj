@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{DF47B727-3C43-45DE-A4ED-5819AF798538}</ProjectGuid>
+    <ProjectGuid>{7EDF32C2-13C3-445F-8E41-1FA743075B88}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -148,17 +148,67 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\addins\owl.carousel.css" />
+    <Content Include="Content\addins\responsive.css" />
+    <Content Include="Content\addins\style.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\font-awesome\css\font-awesome.min.css" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\banners\1col-banner1.jpg" />
+    <Content Include="images\banners\3col-banner1.jpg" />
+    <Content Include="images\banners\3col-banner2.jpg" />
+    <Content Include="images\banners\3col-banner3.jpg" />
+    <Content Include="images\bg.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\misc\cat-thumb-img1.jpg" />
+    <Content Include="images\payment-icon\americanexpress.png" />
+    <Content Include="images\payment-icon\cirrus.png" />
+    <Content Include="images\payment-icon\mastercard.png" />
+    <Content Include="images\payment-icon\paypal.png" />
+    <Content Include="images\payment-icon\visa.png" />
+    <Content Include="images\product-images\1.jpg" />
+    <Content Include="images\product-images\12.jpg" />
+    <Content Include="images\product-images\13.jpg" />
+    <Content Include="images\product-images\14.jpg" />
+    <Content Include="images\product-images\2.jpg" />
+    <Content Include="images\product-images\21.jpg" />
+    <Content Include="images\product-images\22.jpg" />
+    <Content Include="images\product-images\26.jpg" />
+    <Content Include="images\product-images\3.jpg" />
+    <Content Include="images\product-images\31.jpg" />
+    <Content Include="images\product-images\32.jpg" />
+    <Content Include="images\product-images\33.jpg" />
+    <Content Include="images\product-images\4 %281%29.jpg" />
+    <Content Include="images\product-images\4.jpg" />
+    <Content Include="images\product-images\5.jpg" />
+    <Content Include="images\product-images\6.jpg" />
+    <Content Include="images\product-images\7.jpg" />
+    <Content Include="images\product-images\8 %281%29.jpg" />
+    <Content Include="images\product-images\8.jpg" />
+    <Content Include="images\product-images\9.jpg" />
+    <Content Include="images\product-images\hcart-thumb1.jpg" />
+    <Content Include="images\product-images\hcart-thumb2.jpg" />
+    <Content Include="images\slider-imgs\slide1-img.jpg" />
+    <Content Include="images\slider-imgs\slide2-img.jpg" />
+    <Content Include="images\slider-imgs\slide3-img.png" />
+    <Content Include="images\slider-imgs\slide4-img.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -167,6 +217,13 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\js\bootstrap-hover-dropdown.min.js" />
+    <Content Include="Scripts\js\bootstrap.min.js" />
+    <Content Include="Scripts\js\custom.js" />
+    <Content Include="Scripts\js\jquery-1.11.1.min.js" />
+    <Content Include="Scripts\js\jquery-migrate-1.2.1.min.js" />
+    <Content Include="Scripts\js\jquery.magnific-popup.min.js" />
+    <Content Include="Scripts\js\owl.carousel.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
@@ -220,9 +277,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>53429</DevelopmentServerPort>
+          <DevelopmentServerPort>53867</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:53429/</IISUrl>
+          <IISUrl>http://localhost:53867/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
