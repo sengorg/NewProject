@@ -1,0 +1,195 @@
+﻿
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12 border-right-blue-grey border-right-lighten-5">
+                        <div class="p-1 text-xs-center">
+                            <div>
+                                <h3 class="font-large-1 grey darken-1 text-bold-400">$84,962</h3>
+                                <span class="font-small-3 grey darken-1">Monthly Profit</span>
+                            </div>
+                            <div class="card-body overflow-hidden">
+                                <div id="morris-comments" class="height-75"></div>
+                                <ul class="list-inline clearfix mb-0">
+                                    <li class="border-right-grey border-right-lighten-2 pr-2">
+                                        <h3 class="success text-bold-400">$8,200</h3>
+                                        <span class="font-small-3 grey darken-1"><i class="icon-chevron-up success"></i> Today</span>
+                                    </li>
+                                    <li class="pl-2">
+                                        <h3 class="success text-bold-400">$5,400</h3>
+                                        <span class="font-small-3 grey darken-1"><i class="icon-chevron-down success"></i> Yesterday</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 border-right-blue-grey border-right-lighten-5">
+                        <div class="p-1 text-xs-center">
+                            <div>
+                                <h3 class="font-large-1 grey darken-1 text-bold-400">1,879</h3>
+                                <span class="font-small-3 grey darken-1">Total Sales</span>
+                            </div>
+                            <div class="card-body overflow-hidden">
+                                <div id="morris-likes" class="height-75"></div>
+                                <ul class="list-inline clearfix mb-0">
+                                    <li class="border-right-grey border-right-lighten-2 pr-2">
+                                        <h3 class="primary text-bold-400">4789</h3>
+                                        <span class="font-small-3 grey darken-1"><i class="icon-chevron-up primary"></i> Today</span>
+                                    </li>
+                                    <li class="pl-2">
+                                        <h3 class="primary text-bold-400">389</h3>
+                                        <span class="font-small-3 grey darken-1"><i class="icon-chevron-down primary"></i> Yesterday</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="p-1 text-xs-center">
+                            <div>
+                                <h3 class="font-large-1 grey darken-1 text-bold-400">894</h3>
+                                <span class="font-small-3 grey darken-1">Support Tickets</span>
+                            </div>
+                            <div class="card-body overflow-hidden">
+                                <div id="morris-views" class="height-75"></div>
+                                <ul class="list-inline clearfix mb-0">
+                                    <li class="border-right-grey border-right-lighten-2 pr-2">
+                                        <h3 class="danger text-bold-400">81</h3>
+                                        <span class="font-small-3 grey darken-1"><i class="icon-chevron-up danger"></i> Critical</span>
+                                    </li>
+                                    <li class="pl-2">
+                                        <h3 class="danger text-bold-400">498</h3>
+                                        <span class="font-small-3 grey darken-1"><i class="icon-chevron-down danger"></i> Low</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row match-height">
+    <div class="col-xl-8 col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <ul class="list-inline text-xs-center pt-2 m-0">
+                    <li class="mr-1">
+                        <h6><i class="icon-circle warning"></i> <span class="grey darken-1">Remaining</span></h6>
+                    </li>
+                    <li class="mr-1">
+                        <h6><i class="icon-circle success"></i> <span class="grey darken-1">Completed</span></h6>
+                    </li>
+                </ul>
+                <div class="chartjs height-250">
+                    <canvas id="line-stacked-area" height="250"></canvas>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="row">
+                    <div class="col-xs-3 text-xs-center">
+                        <span class="text-muted">Total Projects</span>
+                        <h2 class="block font-weight-normal">18</h2>
+                        <progress class="progress progress-xs mt-2 progress-success" value="70" max="100"></progress>
+                    </div>
+                    <div class="col-xs-3 text-xs-center">
+                        <span class="text-muted">Total Task</span>
+                        <h2 class="block font-weight-normal">125</h2>
+                        <progress class="progress progress-xs mt-2 progress-success" value="40" max="100"></progress>
+                    </div>
+                    <div class="col-xs-3 text-xs-center">
+                        <span class="text-muted">Completed Task</span>
+                        <h2 class="block font-weight-normal">242</h2>
+                        <progress class="progress progress-xs mt-2 progress-success" value="60" max="100"></progress>
+                    </div>
+                    <div class="col-xs-3 text-xs-center">
+                        <span class="text-muted">Total Revenue</span>
+                        <h2 class="block font-weight-normal">$11,582</h2>
+                        <progress class="progress progress-xs mt-2 progress-success" value="90" max="100"></progress>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-lg-12">
+        <div class="card  card-inverse bg-primary">
+            <div class="card-body">
+                <div class="card-block sales-growth-chart">
+                    <div class="chart-title mb-1 text-xs-center">
+                        <span class="white">Total monthly Sales.</span>
+                    </div>
+                    <div id="monthly-sales" class="height-250"></div>
+                </div>
+            </div>
+            <div class="card-footer text-xs-center">
+                <div class="chart-stats mt-1 white">
+                    <a href="#" class="btn bg-primary bg-darken-3 mr-1 white">Statistics <i class="icon-bar-graph"></i></a> for the last year.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="card box-shadow-0">
+            <div class="card-body collapse in">
+                <div class="row">
+                    <div class="col-xl-8 col-lg-12">
+                        <div id="world-map-markers" class="height-450"></div>
+                    </div>
+                    <div class="col-xl-4 col-lg-12">
+                        <div class="card-block">
+                            <div class="row">
+                                <h4 class="card-title py-1 text-xs-center">Sales All Over The World</h4>
+                                <div class="col-xl-12 col-lg-4 col-sm-12">
+                                    <div class="media">
+                                        <div class="media-body">
+                                            <span>Total Orders <i class="icon-arrow-down4 deep-orange accent-3"></i> <span class="deep-orange accent-3">4.27%</span></span>
+                                            <h2 class="mb-0">789</h2>
+                                        </div>
+                                        <div class="media-right media-top pr-2">
+                                            <i class="icon-cart font-large-1"></i>
+                                        </div>
+                                    </div>
+                                    <div id="map-total-orders" class="height-75"></div>
+                                </div>
+                                <div class="col-xl-12 col-lg-4 col-sm-12">
+                                    <div class="media">
+                                        <div class="media-body">
+                                            <span>Total Profit <i class="icon-arrow-up4 success"></i> <span class="teal accent-3">6.89%</span></span>
+                                            <h2 class="mb-0">$47.8K</h2>
+                                        </div>
+                                        <div class="media-right media-top pr-2">
+                                            <i class="icon-dollar font-large-1"></i>
+                                        </div>
+                                    </div>
+                                    <div id="map-total-profit" class="height-75"></div>
+                                </div>
+                                <div class="col-xl-12 col-lg-4 col-sm-12">
+                                    <div class="sales pr-2">
+                                        <div class="sales-today mb-1">
+                                            <p class="m-0">Today <span class="sucess float-xs-right"><i class="icon-arrow-up4 success"></i> 6.89%</span></p>
+                                            <progress class="progress progress-sm progress-success progress-accent-3 mb-0" value="70" max="100"></progress>
+                                        </div>
+                                        <div class="sales-yesterday">
+                                            <p class="m-0">Yesterday <span class="deep-orange accent-2 float-xs-right"><i class="icon-arrow-down4 deep-orange accent-3"></i> 4.18%</span></p>
+                                            <progress class="progress progress-sm progress-deep-orange progress-accent-2 mb-0" value="60" max="100"></progress>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

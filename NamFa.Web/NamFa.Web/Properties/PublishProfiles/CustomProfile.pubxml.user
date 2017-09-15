@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\publish files\namfa</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>09/15/2017 15:21:26</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/22/2013 08:43:40</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>09/15/2017 15:21:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>11/30/2016 16:07:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>07/12/2016 11:45:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>07/12/2016 11:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>06/12/2016 15:15:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>07/12/2016 11:49:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>07/12/2016 11:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>06/12/2016 15:09:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>12/13/2016 03:10:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>05/01/2012 11:08:46</publishTime>
+    </File>
+    <File Include="bin/NamFa.Web.dll">
+      <publishTime>09/15/2017 15:55:20</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/08/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/28/2015 04:02:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>11/02/2014 15:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/28/2015 04:02:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>01/28/2015 04:04:30</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>10/09/2013 17:28:38</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>09/15/2017 15:21:16</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>09/15/2017 15:21:16</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/css/bootstrap.min.css">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/css/owl.carousel.css">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/css/responsive.css">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/css/style.css">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/font-awesome/css/font-awesome.min.css">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/fonts/fontawesome-webfont.eot">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/fonts/fontawesome-webfont.svg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/fonts/fontawesome-webfont.ttf">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/fonts/fontawesome-webfont.woff">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/fonts/fontawesome-webfont.woff2">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/fonts/FontAwesome.otf">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/banners/1col-banner1.jpg">
+      <publishTime>09/15/2017 15:22:37</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/banners/3col-banner1.jpg">
+      <publishTime>09/15/2017 15:22:37</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/banners/3col-banner2.jpg">
+      <publishTime>09/15/2017 15:22:37</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/banners/3col-banner3.jpg">
+      <publishTime>09/15/2017 15:22:37</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/bg.jpg">
+      <publishTime>09/15/2017 15:22:37</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/logo.png">
+      <publishTime>09/15/2017 15:22:37</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/misc/cat-thumb-img1.jpg">
+      <publishTime>09/15/2017 15:22:37</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/payment-icon/americanexpress.png">
+      <publishTime>09/15/2017 15:22:37</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/payment-icon/cirrus.png">
+      <publishTime>09/15/2017 15:22:37</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/payment-icon/mastercard.png">
+      <publishTime>09/15/2017 15:22:37</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/payment-icon/paypal.png">
+      <publishTime>09/15/2017 15:22:37</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/payment-icon/visa.png">
+      <publishTime>09/15/2017 15:22:37</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/1.jpg">
+      <publishTime>09/15/2017 15:22:37</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/12.jpg">
+      <publishTime>09/15/2017 15:22:37</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/13.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/14.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/2.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/21.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/22.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/26.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/3.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/31.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/32.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/33.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/4 %281%29.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/4.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/5.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/6.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/7.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/8 %281%29.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/8.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/9.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/hcart-thumb1.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/product-images/hcart-thumb2.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/slider-imgs/slide1-img.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/slider-imgs/slide2-img.jpg">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/slider-imgs/slide3-img.png">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/images/slider-imgs/slide4-img.png">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/js/bootstrap-hover-dropdown.min.js">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/js/bootstrap.min.js">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/js/custom.js">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/js/jquery-1.11.1.min.js">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/js/jquery-migrate-1.2.1.min.js">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/js/jquery.magnific-popup.min.js">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/fronend-plugin/js/owl.carousel.min.js">
+      <publishTime>09/15/2017 15:22:38</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/css/app.min.css">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/css/bootstrap-extended.min.css">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/css/bootstrap.min.css">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/css/colors.min.css">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/css/core/colors/palette-climacon.min.css">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/css/core/menu/menu-types/vertical-menu.min.css">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/css/core/menu/menu-types/vertical-overlay-menu.min.css">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/css/pages/users.min.css">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/css/plugins/calendars/clndr.min.css">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/css/style.css">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/fonts/flag-icon-css/css/flag-icon.css">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/fonts/flag-icon-css/css/flag-icon.min.css">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/fonts/flag-icon-css/flags/4x3/cn.svg">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/fonts/flag-icon-css/flags/4x3/de.svg">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/fonts/flag-icon-css/flags/4x3/fr.svg">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/fonts/flag-icon-css/flags/4x3/gb.svg">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/fonts/icomoon.css">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/fonts/icomoon/icomoon.ttf">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/carousel/16.jpg">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/elements/04.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/elements/06.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/ico/apple-icon-120.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/ico/apple-icon-152.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/ico/apple-icon-60.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/ico/apple-icon-76.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/ico/favicon-32.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/ico/favicon.ico">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/logo/robust-logo-light.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/logo/robust-logo-small.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/portrait/small/avatar-s-1.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/portrait/small/avatar-s-2.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/portrait/small/avatar-s-3.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/portrait/small/avatar-s-4.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/portrait/small/avatar-s-5.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/portrait/small/avatar-s-6.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/portrait/small/avatar-s-7.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/portrait/small/avatar-s-8.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/portrait/small/avatar-s-9.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/portrait/small/robust-logo-light %281%29.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/slider/slider-1.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/slider/slider-2.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/slider/slider-3.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/slider/slider-4.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/slider/slider-5.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/slider/slider-6.png">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/images/svg/magnifier.svg">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/js/core/app-menu.min.js">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/js/core/app.min.js">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/js/core/libraries/bootstrap.min.js">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/js/core/libraries/jquery.min.js">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/js/scripts/pages/dashboard-project.min.js">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/js/scripts/ui/fullscreenSearch.min.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/css/charts/jquery-jvectormap-2.0.3.css">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/css/charts/morris.css">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/css/extensions/pace.css">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/css/extensions/unslider.css">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/css/sliders/slick/slick.css">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/css/weather-icons/climacons.min.css">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/charts/chart.min.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/charts/chartist-plugin-tooltip.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/charts/chartist.min.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/charts/jquery.sparkline.min.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/charts/jvector/jquery-jvectormap-2.0.3.min.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/charts/jvector/jquery-jvectormap-world-mill.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/charts/morris.min.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/charts/raphael-min.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/extensions/clndr.min.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/extensions/jquery.knob.min.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/extensions/moment.min.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/extensions/pace.min.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/extensions/underscore-min.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/extensions/unslider-min.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/sliders/slick/slick.min.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/ui/blockUI.min.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/ui/jquery-sliding-menu.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/ui/jquery.matchHeight-min.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/ui/perfect-scrollbar.jquery.min.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/ui/screenfull.min.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/ui/slick.min.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/ui/tether.min.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/app-assets/vendors/js/ui/unison.min.js">
+      <publishTime>09/15/2017 15:39:21</publishTime>
+    </File>
+    <File Include="Content/plugin-admin/assets/css/style.css">
+      <publishTime>09/15/2017 15:39:19</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>09/15/2017 15:21:10</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>09/15/2017 15:21:11</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/15/2017 15:21:16</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/15/2017 15:21:16</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/15/2017 15:21:16</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/15/2017 15:21:15</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/15/2017 15:21:11</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/15/2017 15:21:28</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>09/15/2017 15:21:15</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>09/15/2017 15:21:15</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>09/15/2017 15:21:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>09/15/2017 15:21:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>09/15/2017 15:21:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>09/15/2017 15:21:23</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>09/15/2017 15:21:23</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>09/15/2017 15:21:23</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>09/15/2017 15:21:23</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>09/15/2017 15:21:21</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>09/15/2017 15:21:22</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>09/15/2017 15:21:22</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>09/15/2017 15:35:12</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>09/15/2017 15:36:13</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>09/15/2017 15:32:05</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>09/15/2017 15:21:11</publishTime>
+    </File>
+    <File Include="Views/Shared/_AdminLayout.cshtml">
+      <publishTime>09/15/2017 15:50:07</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>09/15/2017 15:54:06</publishTime>
+    </File>
+    <File Include="Views/UserHome/Index.cshtml">
+      <publishTime>09/15/2017 15:42:10</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>09/15/2017 15:21:11</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>09/15/2017 15:21:11</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/15/2017 15:55:21</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
